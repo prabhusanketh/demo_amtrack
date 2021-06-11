@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AmTrack Ambulance Services</title>
+</head>
+<body>
+    <p>Allow AmTrack to access your location.</p>
+    <button onclick="getLocation();">Call Ambulance</button><br>
+
+    <p id="demo"></p>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase.js"></script>
+
+    <script>
+        var x = document.getElementById("demo");
+
+        var firebaseConfig = {
+            apiKey: "AIzaSyAm3CxKJkCN6GivCHZixi29agDE2Ctc4Bk",
+            authDomain: "amtrack-b7506.firebaseapp.com",
+            databaseURL: "https://amtrack-b7506-default-rtdb.firebaseio.com",
+            projectId: "amtrack-b7506",
+            storageBucket: "amtrack-b7506.appspot.com",
+            messagingSenderId: "784932552900",
+            appId: "1:784932552900:web:f3be638f7b9952b3ba0991",
+            measurementId: "G-P8SKZP269X"
+            };
+
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(updatePosition);
+            }
+            else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function updatePosition(position) {
+            document.getElementById("myText").defaultValue=position.coords.latitude + "," + position.coords.longitude;
+            firebase.database().ref('/PATIENTS').push({
+                location:  x.innerHTML  //document.getElementById("latitude").position.coords.latitude
+            });
+        }
+
+    </script>
+
+    {% if data %}
+
+    {{data | safe}}
+
+    {% endif %}
+
+    <form action="/external/" method="post">
+        {% csrf_token %}
+        Extracted Location:
+            <input type="text" id="myText" name="param" required><br><br>
+            <input type="submit" value="Share Location"><br><br>{{data1}}<br><br>
+    </form>
+
+    <button onclick="document.location='https://demoamtrack.web.app/where.html'">Hospital Recommendation</button>
+</body>
+</html>

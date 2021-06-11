@@ -1,0 +1,23 @@
+myData = [
+    [12.8993521,74.8460278,'A J Hospital And Research Centre. Address- National Highway 66 Kuntikana, Kuntikan, Mangalore, Karnataka 575004, India'],
+    [39.1110254,-84.8840498,'Indiana Hospital And Heart Institute Ltd.. Address- 606 Wilson Creek Rd #410, Lawrenceburg, IN 47025, USA'],
+    [12.8730398,74.8412242,'Yenepoya Hospital. Address- KSR Road, Opp Bishops House, Kodailbail, Mangalore, Karnataka 575003, India'],
+    [41.2565514,-95.97703849999999,'Father Mullers General Hospital. Address- 4350 Dewey Ave, Omaha, NE 68105, USA'],
+    [12.8703959,74.8629108,'Omega Hospital (Kankanady). Address- Mahaveera Circle, Kankanady, Mangalore, Karnataka 575002, India'],
+    [12.8746076,74.8550059,'SCS Hospital Pvt. Ltd.. Address- Bendroor well Road, Balmatta, Mangalore, Karnataka 575004, India'],
+    [48.7535724,-122.4740979,'Unity Care And Health Service Pvt. Ltd.. Address- 1616 Cornwall Ave, Bellingham, WA 98225, USA'],
+    [12.8078662,74.8882412,'K S Hegde Hospital. Address- Deralakatte, Mangalore, Karnataka 575018, India'],
+    [41.7545616,-72.6792339,'Global Multispeciality Hospital. Address- 80 Seymour St, Hartford, CT 06106, USA'],
+    [12.880979,74.853146,'Vijaya Clinic General Hospital. Address- Kadri Kambla Rd, Mallikatte, Kadri, Mangalore, Karnataka 575004, India'],
+    [13.0658009,74.8522909,'Concetta Hospital. Address- Main Road, Kinnigoli, Kinnigoly, Mangalore, Karnataka 574150, India'],
+    [37.9233753,-122.0638538,'Mullers Hospital. Address- 2735 N Main St, Walnut Creek, CA 94597, USA'],
+    [42.98957799999999,-87.950789,'Chinmaya Hospital. Address- 2900 W Oklahoma Ave, Milwaukee, WI 53215, USA'],
+    [12.872806,74.85665259999999,'Colaco Hospital. Address- Bendoorwell Main Rd, Bendoorwell, Bendoor, Mangalore, Karnataka 575002, India'],
+    [12.8802774,74.85372389999999,'Tejasvini Hospital. Address- Ground Floor, Kadri Temple Rd, Mallikatte, Kadri, Mangalore, Karnataka 575002, India'],
+    [12.8790345,74.8466023,'Vinaya Hospital And Research Centre. Address- 3-31, 2739, Pintos Ln, Behind Tandoor Restaurant, Boloor, Kadri, Mangalore, Karnataka 575003, India'],
+    [12.9141417,74.8559568,'Highland Hospital Research and Diagnostic Centre. Address- Highlands, Falnir, Mullakad, Konchady, Mangalore, Karnataka 575002, India'],
+    [12.8776591,74.85256790000001,'Mangala Hospital And Kidney Foundation. Address- Kadri Road, Mallikatte, Kadri, Mangalore, Karnataka 575002, India'],
+    [12.7676565,75.1960773,'Pragathi Speciality Hospital. Address- Main Road, Bolwar, Puttur, Karnataka 574201, India'],
+    [12.8796087,74.8531634,'City Hospital Research and Diagnostic Centre. Address- Pound Garden, Mallikatte, Kadri, Mangalore, Karnataka 575002, India'],
+    [12.9107991,74.8986773,'st.joseph engineering college mangalore. Address- Vamanjoor, Mangalore, Karnataka 575028, India']
+    ];
